@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none; 
+    list-style: none;
+    /* margin: 0 0 0 0; */
+}
+
+header{
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 100px;
+    /* padding: 0px 30px; */
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    height:30px;
+}
+
+header nav ul a{
+    margin:31px 31px 49px 31px;
+    text-align: center;
+    transition: 0.5s;
+    height: 20px;
+    color: gold;
+}
+
+header nav ul a:hover{
+    background-color: #141419;
+    height: 69px;
+}
+
+nav{
+    background-color: #0c0c0f;
+    height: 100px;
+    text-decoration: none;
+}
+
+li{
+    width: 90px;
+}
+
+figure{
+    margin: 0 auto 0 auto;
+}
+
+nav a{
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    height: 20px;
+}
+
+body {
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #4e0000;
+    width: 100%;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+.descricao-team{
+    display: flex;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    margin-top: 32px;
+}
+
+.container{
+    margin-right: 200px;
+}
+section{
+    color: #FFFFFF;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #141919;
+    margin-top: 20px;
+    /* margin-right: 50px; */
+    padding: 32px;
+    /* padding-top: 10px; */
+    border-radius: 8px;
+    flex-wrap: wrap;
+    /* width: 1000px; */
+    justify-content: right;
+}
+section header div{
+    background-color: #160066;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+section h2{
+    letter-spacing: -0.47px;
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+.cavslogo{
+    margin: auto 200px 0;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin-top: 24px;
+    justify-content: center;
+}
+/* section div{
+    flex-wrap: wrap;
+} */
+
+#about-team{
+    width: 100%;
+    height: px;
+    border-radius: 8px;
+    padding: 24px 32px 32px ;
+    /* padding: 100px; */
+    background-color: #121214;
+}
+section img{
+    width: 100px;
+    height: 100px;
+    align-content: initial;
+}
+.armadores-list img {
+    /* margin: auto 20px auto auto; */
+    border-radius: 8px;
+    width: 90px    ;
+}
+.ala-armadores-list img {
+    width: 90px;
+    /* margin: 0 50px 0 0; */
+    border-radius: 8px;
+}
+.alas-list img {
+    width: 90px;
+    /* margin: auto  auto auto; */
+    border-radius: 8px;
+}
+.ala-pivos-list img {
+    width: 90px;
+    /* margin: auto auto auto auto; */
+    border-radius: 8px;
+}
+.pivos-list img {
+    border-radius: 8px;
+    /* margin: auto auto auto auto; */
+    width: 90px;
+}
+footer{
+    margin: 100px auto auto ;
+    font-size: 10px;
+    height: 120px;
+    background-color: #121214;
+    color: #b1b1b1;
+    width: 100%;
+    text-align: center;
+}
+
+.contato{
+    font-size: 12px;
+}
+
+figcaption{ 
+    text-align: center; 
+}
